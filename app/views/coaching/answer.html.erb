@@ -1,0 +1,11 @@
+<div class="wrapper text-center">
+  <div class="card">
+    <h4><%= @question.capitalize %></h4>
+    <p>- You </p>
+  </div>
+  <div class="card">
+    <h4><%= @answer %></h4>
+    <p>- Your coach </p>
+  </div>
+  <%= link_to "Ask new question", ask_path %>
+</div>
